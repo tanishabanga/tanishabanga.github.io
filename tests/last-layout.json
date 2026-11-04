@@ -1,0 +1,467 @@
+[
+ {
+  "name": "@320 no horizontal overflow",
+  "pass": true,
+  "info": "[320, 320]"
+ },
+ {
+  "name": "@320 nothing escapes its panel",
+  "pass": true,
+  "info": "[]"
+ },
+ {
+  "name": "@320 six categories with the right items",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@320 every logo painted",
+  "pass": true,
+  "info": "[]"
+ },
+ {
+  "name": "@320 identical icon boxes (36x36)",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@320 labels not clipped",
+  "pass": true,
+  "info": "[]"
+ },
+ {
+  "name": "@320 Languages: items stay inside the group",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@320 Frontend: items stay inside the group",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@320 Backend: items stay inside the group",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@320 Database: items stay inside the group",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@320 AI / ML: items stay inside the group",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@320 Tools: items stay inside the group",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@320 categories stack top-to-bottom (2-col allowed)",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@320 panel names + order",
+  "pass": true,
+  "info": "['Workspace.View', 'System.Info', 'Connect', 'Tech Stack', 'GitHub Stats', 'Top Languages', 'Contribution Snake']"
+ },
+ {
+  "name": "@390 no horizontal overflow",
+  "pass": true,
+  "info": "[390, 390]"
+ },
+ {
+  "name": "@390 nothing escapes its panel",
+  "pass": true,
+  "info": "[]"
+ },
+ {
+  "name": "@390 six categories with the right items",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@390 every logo painted",
+  "pass": true,
+  "info": "[]"
+ },
+ {
+  "name": "@390 identical icon boxes (36x36)",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@390 labels not clipped",
+  "pass": true,
+  "info": "[]"
+ },
+ {
+  "name": "@390 Languages: items stay inside the group",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@390 Frontend: items stay inside the group",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@390 Backend: items stay inside the group",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@390 Database: items stay inside the group",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@390 AI / ML: items stay inside the group",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@390 Tools: items stay inside the group",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@390 categories stack top-to-bottom (2-col allowed)",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@390 panel names + order",
+  "pass": true,
+  "info": "['Workspace.View', 'System.Info', 'Connect', 'Tech Stack', 'GitHub Stats', 'Top Languages', 'Contribution Snake']"
+ },
+ {
+  "name": "mobile section order: header, workspace first, footer last",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@768 no horizontal overflow",
+  "pass": true,
+  "info": "[768, 768]"
+ },
+ {
+  "name": "@768 nothing escapes its panel",
+  "pass": true,
+  "info": "[]"
+ },
+ {
+  "name": "@768 six categories with the right items",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@768 every logo painted",
+  "pass": true,
+  "info": "[]"
+ },
+ {
+  "name": "@768 identical icon boxes (36x36)",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@768 labels not clipped",
+  "pass": true,
+  "info": "[]"
+ },
+ {
+  "name": "@768 Languages: items stay inside the group",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@768 Frontend: items stay inside the group",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@768 Backend: items stay inside the group",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@768 Database: items stay inside the group",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@768 AI / ML: items stay inside the group",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@768 Tools: items stay inside the group",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@768 categories stack top-to-bottom (2-col allowed)",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@768 panel names + order",
+  "pass": true,
+  "info": "['Workspace.View', 'System.Info', 'Connect', 'Tech Stack', 'GitHub Stats', 'Top Languages', 'Contribution Snake']"
+ },
+ {
+  "name": "@1180 no horizontal overflow",
+  "pass": true,
+  "info": "[1180, 1180]"
+ },
+ {
+  "name": "@1180 nothing escapes its panel",
+  "pass": true,
+  "info": "[]"
+ },
+ {
+  "name": "@1180 six categories with the right items",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@1180 every logo painted",
+  "pass": true,
+  "info": "[]"
+ },
+ {
+  "name": "@1180 identical icon boxes (36x36)",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@1180 labels not clipped",
+  "pass": true,
+  "info": "[]"
+ },
+ {
+  "name": "@1180 Languages: logos share one baseline row",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@1180 Frontend: logos share one baseline row",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@1180 Backend: logos share one baseline row",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@1180 Database: logos share one baseline row",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@1180 AI / ML: logos share one baseline row",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@1180 Tools: logos share one baseline row",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@1180 labels single-line",
+  "pass": true,
+  "info": "[14]"
+ },
+ {
+  "name": "@1180 3 columns x 2 rows",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@1180 SQL stays in Languages row",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@1180 panel names + order",
+  "pass": true,
+  "info": "['Workspace.View', 'System.Info', 'Connect', 'Tech Stack', 'GitHub Stats', 'Top Languages', 'Contribution Snake']"
+ },
+ {
+  "name": "@1440 no horizontal overflow",
+  "pass": true,
+  "info": "[1440, 1440]"
+ },
+ {
+  "name": "@1440 nothing escapes its panel",
+  "pass": true,
+  "info": "[]"
+ },
+ {
+  "name": "@1440 six categories with the right items",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@1440 every logo painted",
+  "pass": true,
+  "info": "[]"
+ },
+ {
+  "name": "@1440 identical icon boxes (36x36)",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@1440 labels not clipped",
+  "pass": true,
+  "info": "[]"
+ },
+ {
+  "name": "@1440 Languages: logos share one baseline row",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@1440 Frontend: logos share one baseline row",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@1440 Backend: logos share one baseline row",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@1440 Database: logos share one baseline row",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@1440 AI / ML: logos share one baseline row",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@1440 Tools: logos share one baseline row",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@1440 labels single-line",
+  "pass": true,
+  "info": "[14]"
+ },
+ {
+  "name": "@1440 3 columns x 2 rows",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@1440 SQL stays in Languages row",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@1440 panel names + order",
+  "pass": true,
+  "info": "['Workspace.View', 'System.Info', 'Connect', 'Tech Stack', 'GitHub Stats', 'Top Languages', 'Contribution Snake']"
+ },
+ {
+  "name": "@1920 no horizontal overflow",
+  "pass": true,
+  "info": "[1920, 1920]"
+ },
+ {
+  "name": "@1920 nothing escapes its panel",
+  "pass": true,
+  "info": "[]"
+ },
+ {
+  "name": "@1920 six categories with the right items",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@1920 every logo painted",
+  "pass": true,
+  "info": "[]"
+ },
+ {
+  "name": "@1920 identical icon boxes (36x36)",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@1920 labels not clipped",
+  "pass": true,
+  "info": "[]"
+ },
+ {
+  "name": "@1920 Languages: logos share one baseline row",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@1920 Frontend: logos share one baseline row",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@1920 Backend: logos share one baseline row",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@1920 Database: logos share one baseline row",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@1920 AI / ML: logos share one baseline row",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@1920 Tools: logos share one baseline row",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@1920 labels single-line",
+  "pass": true,
+  "info": "[14]"
+ },
+ {
+  "name": "@1920 3 columns x 2 rows",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@1920 SQL stays in Languages row",
+  "pass": true,
+  "info": ""
+ },
+ {
+  "name": "@1920 panel names + order",
+  "pass": true,
+  "info": "['Workspace.View', 'System.Info', 'Connect', 'Tech Stack', 'GitHub Stats', 'Top Languages', 'Contribution Snake']"
+ },
+ {
+  "name": "no console errors",
+  "pass": true,
+  "info": "[]"
+ },
+ {
+  "name": "no 4xx/5xx responses",
+  "pass": true,
+  "info": "[]"
+ }
+]

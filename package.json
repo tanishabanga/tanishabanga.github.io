@@ -1,0 +1,37 @@
+{
+  "name": "tanisha-dashboard",
+  "private": true,
+  "version": "0.4.3",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "check-icons": "node scripts/check-icons.mjs",
+    "test:visual": "node scripts/run-python.mjs tests/visual.py full",
+    "vendor-logos": "node scripts/vendor-logos.mjs",
+    "test:regression": "node scripts/run-python.mjs tests/regression.py",
+    "test:layout": "node scripts/run-python.mjs tests/layout.py",
+    "test:unit": "node --experimental-strip-types --test \"tests/unit/*.test.mjs\"",
+    "data:fetch": "node --env-file-if-exists=.env scripts/fetch-github-data.mjs",
+    "data:snake": "node scripts/generate-snake.mjs",
+    "data:update": "npm run data:fetch && npm run data:snake",
+    "test:phase4": "node scripts/run-python.mjs tests/phase4.py"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "simple-icons": "^16.36.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "@xmldom/xmldom": "^0.9.12",
+    "devicon": "^2.18.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5"
+  }
+}

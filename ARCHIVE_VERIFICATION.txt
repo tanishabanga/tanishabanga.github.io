@@ -1,0 +1,7 @@
+Archive: tanisha-github-dashboard-phase4-final-v7.zip
+package.json version: 0.4.3
+test:unit: node --experimental-strip-types --test "tests/unit/*.test.mjs"
+Workflow: .github/workflows/update-dashboard.yml
+  - Install dependencies: npm ci
+  - Unit tests: node --experimental-strip-types --test "tests/unit/*.test.mjs"
+GitHub Actions not claimed as passed — verify on the real repository.

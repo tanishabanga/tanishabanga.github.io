@@ -1,0 +1,16 @@
+{
+ "particle_count": {
+  "desktop": 23505,
+  "mobile": 23505
+ },
+ "hashes": {
+  "src/engine/engine.ts": "3a41cbd8085705235f3a04b42ccc4add99e0c72c3e04f72662fb811e4121c3b7",
+  "src/engine/rng.ts": "2fbbdc7b9f80d66561f563b96dc62ef679ff199b0fcd6e5bc97a7d6d4d4a4b29",
+  "src/engine/sampler.ts": "52b2aa3386f76609e40c6267735a300bbe9fdfc0314fe60460016454b66ee2b4",
+  "src/engine/shapes.ts": "3e00e8d49660a9d5f6825ba77b04e4a5aa72f13fde8e8e234cb596d341b7bc1a",
+  "src/engine/types.ts": "59472c059c9189848b672be6e9eb18291614d303ea07609217b8ad553fa74e8b",
+  "src/engine/useParticles.ts": "9ab683bb0f5d2ce9499987da8b87928cd4da98d55636607592c450713dbcba41",
+  "src/config/particles.ts": "f8fac3cebb747fdf8190f40a4840e19ed615ac5f40444ad16fd7244ef9cdd352",
+  "public/art/workspace-ref.png": "59d3062e1e20fb24596f566cd691848e5ab5385098405049e6b293416c9f714f"
+ }
+}

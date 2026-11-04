@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><!-- Neutral database glyph. Hand-authored for this project; NOT a vendor/brand logo. -->
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#60a5fa"/><stop offset="1" stop-color="#2563eb"/></linearGradient></defs>
+<path d="M20 28v72c0 9.4 19.7 17 44 17s44-7.6 44-17V28z" fill="url(#g)"/>
+<path d="M20 52c0 9.400 19.700 17 44 17s44-7.600 44-17M20 76c0 9.400 19.700 17 44 17s44-7.600 44-17" fill="none" stroke="#0b1b4a" stroke-opacity=".55" stroke-width="5"/>
+<ellipse cx="64" cy="28" rx="44" ry="17" fill="#93c5fd"/>
+<ellipse cx="64" cy="28" rx="44" ry="17" fill="none" stroke="#2563eb" stroke-width="3"/></svg>

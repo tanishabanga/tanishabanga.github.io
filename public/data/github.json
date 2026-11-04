@@ -1,0 +1,5 @@
+{
+ "schemaVersion": 1,
+ "status": "not-generated",
+ "note": "Placeholder. No live data has been fetched yet. Run the 'Update dashboard data' workflow (or npm run data:update with GITHUB_TOKEN set) to replace this file. Nothing here is a real statistic."
+}

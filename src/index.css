@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@theme {
+  --color-bg:#050914; --color-panel:#080f24; --color-edge:#16255a; --color-ink:#c9d4f0; --color-dim:#6b7aa8;
+  --color-cyan:#38bdf8; --color-violet:#8b5cf6; --color-emerald:#34d399; --color-pink:#f472b6; --color-live:#ff4d4d;
+  --font-mono:"JetBrains Mono","Fira Code",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+}
+html,body{background:var(--color-bg);color:var(--color-ink);font-family:var(--font-mono);margin:0}
+@keyframes pulse-dot{0%,100%{opacity:1}50%{opacity:.35}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}

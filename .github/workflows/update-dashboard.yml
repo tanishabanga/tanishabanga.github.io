@@ -1,0 +1,54 @@
+name: Update dashboard data
+
+on:
+  schedule:
+    - cron: '23 */6 * * *'   # every 6 hours (UTC); GitHub may delay scheduled runs under load
+  workflow_dispatch:          # manual run: Actions tab -> "Update dashboard data" -> Run workflow
+
+# One run at a time; a newer run waits instead of racing to push.
+concurrency:
+  group: update-dashboard
+  cancel-in-progress: false
+
+permissions: {}               # nothing by default; the job asks for exactly what it needs
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write         # only to commit public/data/*; no other scope is granted
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Unit tests (mock-based, no network)
+        run: node --experimental-strip-types --test "tests/unit/*.test.mjs"
+
+      - name: Fetch GitHub data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}          # built-in, short-lived token
+          GITHUB_USERNAME: ${{ github.repository_owner }}    # remove this line if the repo is not owned by the profile account
+          # GH_STATS_TOKEN: ${{ secrets.GH_STATS_TOKEN }}    # OPTIONAL fallback, only if the built-in token is refused (see README)
+        run: node scripts/fetch-github-data.mjs
+
+      - name: Generate contribution snake
+        run: node scripts/generate-snake.mjs
+
+      - name: Commit only if something changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data
+          if git diff --cached --quiet; then
+            echo "No data changes - nothing to commit."
+          else
+            git commit -m "chore(data): update GitHub dashboard data"
+            git push
+          fi
