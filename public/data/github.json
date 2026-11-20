@@ -2,10 +2,10 @@
  "schemaVersion": 1,
  "status": "ok",
  "username": "tanishabanga",
- "generatedAt": "2026-11-20T07:24:20.634Z",
+ "generatedAt": "2026-11-20T20:27:22.144Z",
  "stats": {
-  "contributions": 105,
-  "repositories": 14,
+  "contributions": 111,
+  "repositories": 15,
   "followers": 1,
   "following": 0
  },
@@ -18,46 +18,46 @@
   "status": "ok",
   "basis": "bytes",
   "policy": "public, non-fork, non-archived repositories owned by the user",
-  "reposListed": 14,
-  "reposCounted": 11,
+  "reposListed": 15,
+  "reposCounted": 12,
   "reposExcluded": {
    "fork": 3,
    "archived": 0,
    "private": 0,
    "notOwned": 0
   },
-  "totalBytes": 10636786,
+  "totalBytes": 11322596,
   "languageCount": 6,
   "items": [
    {
     "name": "Jupyter Notebook",
     "bytes": 10153677,
     "color": "#DA5B0B",
-    "percent": 95.4
+    "percent": 89.7
+   },
+   {
+    "name": "Python",
+    "bytes": 547679,
+    "color": "#3572A5",
+    "percent": 4.8
    },
    {
     "name": "JavaScript",
-    "bytes": 328414,
+    "bytes": 453695,
     "color": "#f1e05a",
-    "percent": 3.1
+    "percent": 4
    },
    {
     "name": "CSS",
-    "bytes": 52770,
+    "bytes": 91958,
     "color": "#663399",
-    "percent": 0.5
-   },
-   {
-    "name": "TypeScript",
-    "bytes": 38873,
-    "color": "#3178c6",
-    "percent": 0.4
+    "percent": 0.8
    },
    {
     "name": "Other",
-    "bytes": 63052,
+    "bytes": 75587,
     "color": "#6b7aa8",
-    "percent": 0.6
+    "percent": 0.7
    }
   ]
  },
@@ -1898,8 +1898,8 @@
    },
    {
     "date": "2026-11-17",
-    "count": 0,
-    "level": 0
+    "count": 4,
+    "level": 2
    },
    {
     "date": "2026-11-18",
@@ -1913,8 +1913,8 @@
    },
    {
     "date": "2026-11-20",
-    "count": 0,
-    "level": 0
+    "count": 2,
+    "level": 1
    }
   ]
  }
